@@ -62,7 +62,7 @@ body {
   }
 
   .content-container {
-    @apply w-full p-6 lg:px-24 lg:py-24;
+    @apply w-full h-full p-6 lg:px-24 lg:py-24;
   }
 }
 
