@@ -5,7 +5,7 @@ import Button from "./Button";
 
 const Navbar = () => {
   return (
-    <header className="w-full px-4 py-2 flex items-center justify-between color-bg lg:px-8">
+    <header className="w-full px-4 py-2 flex items-center justify-between bg-default-bg-rgb lg:px-8">
       <Link href="/" className="uppercase font-bold text-lg">
         Julai
       </Link>

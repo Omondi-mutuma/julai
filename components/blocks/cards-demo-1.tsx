@@ -3,7 +3,7 @@ import { cn } from "@/lib/utils";
 
 export default function CardDemo() {
   return (
-    <div className="w-[640px] w-full absolute right-0 h-full">
+    <div className="w-full absolute right-0 h-full">
       <div
         className={cn(
           "group w-full cursor-pointer overflow-hidden relative card h-full shadow-xl mx-auto flex flex-col justify-end p-4 border border-transparent dark:border-neutral-800",
