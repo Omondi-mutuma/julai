@@ -32,7 +32,7 @@ const config: Config = {
         "color-background-start-rgb": "rgb(186, 202, 213)",
         "background-rgb": "rgb(19, 82, 191)",
         "color-background-end-rgb": "rgb(148, 173, 192)",
-        "default-bg-rgb": "rgb(98, 128, 150)",
+        "default-bg-rgb": "rgb(154, 189, 243)",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",

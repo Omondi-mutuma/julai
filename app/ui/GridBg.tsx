@@ -6,9 +6,9 @@ import CardDemo from "@/components/blocks/cards-demo-1";
 
 const GridBg = () => {
   return (
-    <section className="content-container relative min-h-screen bg-default-bg-rgb flex">
+    <section className="content-container relative min-h-screen bg-default-bg-rgb flex justify-between">
       <div className="w-full flex flex-col items-start justify-center z-10 lg:max-w-lg">
-        <h1 className="text-6xl lg:text-7xl font-semibold text-gray-50">
+        <h1 className="text-5xl lg:text-7xl font-semibold text-gray-50">
           The Future <br></br>
           <span className="text-slate-950">of Sustainable</span> Energy
         </h1>
@@ -23,7 +23,7 @@ const GridBg = () => {
           icon={BsArrowRightCircleFill}
         />
       </div>
-      <div className="border hidden absolute right-0 -bottom-0 md:flex  min-w-md overflow-clip">
+      <div className="border hidden absolute right-0 -bottom-0 lg:flex  min-w-md overflow-clip">
         <div className=" lg:flex flex-col justify-center z-10">
           <video className="max-w-2xl max-h-[600px]" muted loop autoPlay>
             <source
@@ -43,7 +43,7 @@ const GridBg = () => {
       </div>
       <div className="absolute -top-[50%] -left-[50%] h-[500px] w-[500px] border border-slate-400 rounded-full lg:-top-[40%] lg:-left-[20%]"></div>
       <div className="absolute -top-[50%] -left-[50%] h-[500px] w-[500px] border border-slate-400 rounded-full lg:-top-[60%] lg:-left-[5%]"></div>
-      <div className="absolute -top-[50%] -left-[50%] h-[1000px] w-[500px] border border-slate-400 rounded-full rotate-45 lg:-top-[60%] lg:left-[10%]"></div>
+      <div className="absolute -top-[50%] hidden h-[1000px] w-[500px] border border-slate-400 rounded-full rotate-45 lg:block lg:-top-[60%] lg:left-[10%]"></div>
     </section>
   );
 };
